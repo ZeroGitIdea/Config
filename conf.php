@@ -24,10 +24,10 @@ if (($mes == 12 && $dia >= 21) || ($mes <= 2) || ($mes == 3 && $dia < 21)) {
 
 // Asignar imagen de cabecera según la estación
 $imagenes_estacion = [
-    'invierno' => '../UD3/Actividad1/images/invierno.jpg',
-    'primavera' => '../UD3/Actividad1/images/primavera.jpg',
-    'verano' => '../UD3/Actividad1/images/verano.jpg',
-    'otoño' => '../UD3/Actividad1/images/otono.jpg'
+    'invierno' => '../UNIDAD-3/Actividad1/images/invierno.jpg',
+    'primavera' => '../UNIDAD-3/Actividad1/images/primavera.jpg',
+    'verano' => '../UNIDAD-3/Actividad1/images/verano.jpg',
+    'otoño' => '../UNIDAD-3/Actividad1/images/otono.jpg'
 ];
 
 $imagen_estacion = $imagenes_estacion[$estacion];
